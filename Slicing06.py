@@ -7,4 +7,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    c=s[-1] 
+    x=s[n:-1]
+    g=x+c
+    return g
+print(main('12344',2))
