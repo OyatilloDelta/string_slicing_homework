@@ -7,4 +7,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    x=s[-n:-1]
+    d=s[-1]
+    l=x+d
+    return l
+print(main('alpha1234',2))
