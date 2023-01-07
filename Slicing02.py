@@ -6,6 +6,8 @@ def main(s):
     Returns:
         str: answer
     """
-    d=s[-8:-4]
-    return d
+    d=s[-4:-1]
+    h=s[-1]
+    e=d+h
+    return e
 print(main('123456789absdf'))
