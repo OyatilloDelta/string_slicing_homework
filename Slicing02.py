@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    d=s[-8:-4]
+    return d
+print(main('123456789absdf'))
